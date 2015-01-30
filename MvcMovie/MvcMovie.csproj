@@ -166,6 +166,19 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201501280042569_Initial.cs" />
+    <Compile Include="Migrations\201501280042569_Initial.Designer.cs">
+      <DependentUpon>201501280042569_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201501280100346_Rating.cs" />
+    <Compile Include="Migrations\201501280100346_Rating.Designer.cs">
+      <DependentUpon>201501280100346_Rating.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201501290024567_DataAnnotations.cs" />
+    <Compile Include="Migrations\201501290024567_DataAnnotations.Designer.cs">
+      <DependentUpon>201501290024567_DataAnnotations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -246,6 +259,17 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201501280042569_Initial.resx">
+      <DependentUpon>201501280042569_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201501280100346_Rating.resx">
+      <DependentUpon>201501280100346_Rating.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201501290024567_DataAnnotations.resx">
+      <DependentUpon>201501290024567_DataAnnotations.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
